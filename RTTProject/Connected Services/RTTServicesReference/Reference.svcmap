@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f6b38b3a-0282-4da2-a5d5-451480430c2d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:56395/DataAccessLayer.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="DataAccessLayer.xsd" MetadataType="Schema" ID="46a16190-9ef0-4020-ae16-3615ac1967f2" SourceId="1" SourceUrl="http://localhost:56395/DataAccessLayer.svc?xsd=xsd3" />
+    <MetadataFile FileName="DataAccessLayer.disco" MetadataType="Disco" ID="ee2cb585-6b43-4b27-8097-76d07cee92c8" SourceId="1" SourceUrl="http://localhost:56395/DataAccessLayer.svc?disco" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="f4323170-1580-47e1-9b6a-ff68318ee028" SourceId="1" SourceUrl="http://localhost:56395/DataAccessLayer.svc?wsdl" />
+    <MetadataFile FileName="DataAccessLayer1.xsd" MetadataType="Schema" ID="08d12268-38f0-4b52-8ab3-bd3ee972d39a" SourceId="1" SourceUrl="http://localhost:56395/DataAccessLayer.svc?xsd=xsd1" />
+    <MetadataFile FileName="DataAccessLayer2.xsd" MetadataType="Schema" ID="336c3153-bb7d-486d-809d-fe151a0dbf73" SourceId="1" SourceUrl="http://localhost:56395/DataAccessLayer.svc?xsd=xsd2" />
+    <MetadataFile FileName="DataAccessLayer3.xsd" MetadataType="Schema" ID="5ae6c8e3-aecb-4b8e-84e5-8ca866b3c361" SourceId="1" SourceUrl="http://localhost:56395/DataAccessLayer.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
